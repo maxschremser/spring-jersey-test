@@ -10,10 +10,6 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
 
-/**
- * Created by bluemax on 05.03.16.
- */
-
 @Path("/")
 
 public class RootResource {

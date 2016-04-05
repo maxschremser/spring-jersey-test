@@ -2,10 +2,6 @@ package com.schremser.spring.jersey.domain;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-/**
- * Created by bluemax on 05.03.16.
- */
-
 @XmlRootElement
 public class Message {
     String author;

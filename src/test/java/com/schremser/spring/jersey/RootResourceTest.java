@@ -11,9 +11,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import javax.ws.rs.core.Application;
 
-/**
- * Created by bluemax on 05.03.16.
- */
 public class RootResourceTest extends JerseyTest {
 
     @Override

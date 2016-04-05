@@ -3,19 +3,25 @@ package com.schremser.spring.jersey;
 import org.glassfish.jersey.servlet.ServletContainer;
 import org.glassfish.jersey.servlet.ServletProperties;
 import org.springframework.boot.Banner;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.context.embedded.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 
+/**
+ * tutorial from
+ * http://geowarin.github.io/a-simple-spring-boot-and-jersey-application.html
+ * https://github.com/geowarin/springboot-jersey
+ *
+ * implemented with Love
+ */
 @SpringBootApplication
 @EnableAutoConfiguration
-public class SpringJerseyTestApplication {
+public class SpringJerseyApplication {
 
 	public static void main(String[] args) {
-		new SpringApplicationBuilder(SpringJerseyTestApplication.class)
+		new SpringApplicationBuilder(SpringJerseyApplication.class)
 				.bannerMode(Banner.Mode.OFF)
 				.run(args);
 	}
